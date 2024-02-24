@@ -3,12 +3,12 @@ import lighthouse from "lighthouse";
 import {OutputMode} from "lighthouse/types/lhr/settings";
 import {z} from 'zod';
 
-import config from './custom-config';
-import {allDefined, validate} from '../../util/validations';
+import config from './custom-config.js';
+import {allDefined, validate} from '../../util/validations.js';
 
-import {ModelPluginInterface} from '../../interfaces';
-import {ModelParams} from '../../types';
-import {buildErrorMessage} from "../../util/helpers";
+import {ModelPluginInterface} from '../../interfaces/index.js';
+import {ModelParams} from '../../types/index.js';
+import {buildErrorMessage} from "../../util/helpers.js";
 
 export class LighthouseModel implements ModelPluginInterface {
   errorBuilder = buildErrorMessage(this.constructor.name);

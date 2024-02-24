@@ -1,5 +1,5 @@
-import {metricsToAudits} from 'lighthouse/core/config/metrics-to-audits';
-import Result from "lighthouse/types/lhr/lhr";
+import {metricsToAudits} from 'lighthouse/core/config/metrics-to-audits.js';
+import Result from "lighthouse/types/lhr/lhr.js";
 
 export default {
   extends: 'lighthouse:default',

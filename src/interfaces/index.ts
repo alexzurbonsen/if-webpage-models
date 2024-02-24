@@ -1,4 +1,4 @@
-import {ModelParams} from '../types/common';
+import {ModelParams} from '../types/common.js';
 
 /**
  * Base interface for models.

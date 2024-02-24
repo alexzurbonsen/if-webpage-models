@@ -1,6 +1,6 @@
 import {ZodIssue, ZodIssueCode, ZodSchema} from 'zod';
 
-import {ERRORS} from './errors';
+import {ERRORS} from './errors.js';
 
 const {InputValidationError} = ERRORS;
 

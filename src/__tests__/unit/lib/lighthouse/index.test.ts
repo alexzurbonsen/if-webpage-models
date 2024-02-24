@@ -1,5 +1,5 @@
 import {describe, expect, jest, test} from '@jest/globals';
-import {LighthouseModel} from '../../../../lib';
+import {LighthouseModel} from '../../../../lib/index.js';
 
 describe('lib/lighthouse', () => {
   describe('LighthouseModel: ', () => {
