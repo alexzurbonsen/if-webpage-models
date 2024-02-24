@@ -46,11 +46,9 @@
   ],
   "license": "MIT",
   "type": "module",
-  "module": "./build/index.js",
+  "main": "./build/index.js",
   "exports": {
-    ".": {
-      "import": "./build/index.js"
-    }
+    "import": "./build/index.js"
   },
   "publishConfig": {
     "access": "public"
