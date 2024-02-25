@@ -1,6 +1,6 @@
 {
-  "name": "@alexzurbonsen/if-webpage-models",
-  "description": "Impact Framework - Models for Measuring Webpages",
+  "name": "@alexzurbonsen/if-webpage-models-esm",
+  "description": "Impact Framework - Models for Measuring Webpages ES Module",
   "version": "v0.0.1",
   "author": {
     "name": "A. zur Bonsen, TNG Technology Consulting GmbH",
@@ -54,7 +54,7 @@
     "access": "public"
   },
   "repository": {
-    "url": "https://github.com/alexzurbonsen/if-webpage-models.git"
+    "url": "https://github.com/alexzurbonsen/if-webpage-models-esm.git"
   },
   "scripts": {
     "build": "rm -rf build && tsc --project tsconfig.json",
